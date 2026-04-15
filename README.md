@@ -43,10 +43,10 @@ L_total = α·L_understand + β·L_plan + γ·L_execute + δ·L_verify + ε·L_t
 
 | Tham số | Giá trị | Lý do |
 |---------|---------|-------|
-| α (UNDERSTAND) | 0.10 | Bước dễ, mô hình học nhanh |
-| β (PLAN) | 0.30 | Lỗi lan truyền cao, phạt nặng |
+| α (UNDERSTAND) | 0.15 | Bước dễ, mô hình học nhanh |
+| β (PLAN) | 0.35 | Lỗi lan truyền cao, phạt nặng |
 | γ (EXECUTE) | 0.35 | Ảnh hưởng trực tiếp đáp án cuối |
-| δ (VERIFY) | 0.25 | Ổn định bước kiểm chứng |
+| δ (VERIFY) | 0.15 | Ổn định bước kiểm chứng |
 
 ---
 
