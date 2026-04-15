@@ -230,18 +230,18 @@ FULL_CONFIG = {
     'lora_rank': 16,
     'lora_alpha': 32,
     'lora_dropout': 0.05,
-    'learning_rate': 2e-4,
-    'num_epochs': 1,
-    'batch_size': 4,
-    'gradient_accumulation_steps': 8,
-    'max_length': 2048,
-    'warmup_steps': 50,
+    'learning_rate': 1e-4,
+    'num_epochs': 2,
+    'batch_size': 1,
+    'gradient_accumulation_steps': 4,
+    'max_length': 1024,
+    'warmup_steps': 300,
     'loss_weights': {
         'alpha': 0.15,   # UNDERSTAND
         'beta':  0.35,   # PLAN
         'gamma': 0.35,   # EXECUTE
         'delta': 0.15,   # VERIFY
-        'epsilon': 0.00  # TRANSITION
+        'epsilon': 0.10  # TRANSITION
     }
 }
 ```
