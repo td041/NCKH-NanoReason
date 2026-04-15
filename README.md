@@ -237,10 +237,10 @@ FULL_CONFIG = {
     'max_length': 2048,
     'warmup_steps': 50,
     'loss_weights': {
-        'alpha': 0.10,   # UNDERSTAND
-        'beta':  0.30,   # PLAN
+        'alpha': 0.15,   # UNDERSTAND
+        'beta':  0.35,   # PLAN
         'gamma': 0.35,   # EXECUTE
-        'delta': 0.25,   # VERIFY
+        'delta': 0.15,   # VERIFY
         'epsilon': 0.00  # TRANSITION
     }
 }
